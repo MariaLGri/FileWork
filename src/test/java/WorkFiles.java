@@ -106,7 +106,7 @@ public class WorkFiles {
             assertEquals(100, arrTest.getWidth());
             assertNotNull(arrTest.getEquipment().getTabletop());
             assertEquals(3, arrTest.getEquipment().getTabletop().size()); // проверяем размер списка
-            assertFalse(arrTest.getEquipment().getTabletop().containsAll(List.of("белая", "мрамор", "матовая")));
+            assertTrue(arrTest.getEquipment().getTabletop().containsAll(List.of("белая", "мрамор", "матовая")));
             assertEquals(1, arrTest.getEquipment().getBase());
 
     }
