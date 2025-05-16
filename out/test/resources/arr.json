@@ -1,0 +1,8 @@
+{
+  "name": "France",
+  "capital": "Paris",
+  "population": 67364357,
+  "languages": ["French", "English"],
+  "region": "Europe",
+  "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+}
