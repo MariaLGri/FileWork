@@ -1,4 +1,4 @@
-package modeli;
+package workingWithFiles.modeli;
 
 import java.util.List;
 
