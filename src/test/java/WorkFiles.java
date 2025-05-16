@@ -16,7 +16,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class WorkFiles {
     private ClassLoader cl = WorkFiles.class.getClassLoader();
-    public static final ObjectMapper jackson = new ObjectMapper();
 
     @Test
     @DisplayName("№ 1 Проверка содержимого в test123.pdf из архива arhive3.zip")
