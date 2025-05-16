@@ -1,9 +1,11 @@
+package workingWithFiles;
+
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.CSVReader;
-import modeli.PersonalObject;
-import modeli.arr;
+import workingWithFiles.modeli.PersonalObject;
+import workingWithFiles.modeli.arr;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -16,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class WorkFiles {
     private ClassLoader cl = WorkFiles.class.getClassLoader();
-    public static final ObjectMapper jackson = new ObjectMapper();
+    //public static final ObjectMapper jackson = new ObjectMapper();
 
     @Test
     @DisplayName("№ 1 Проверка содержимого в test123.pdf из архива arhive3.zip")
